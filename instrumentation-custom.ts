@@ -9,7 +9,7 @@ import { OTLPTraceExporter } from "@opentelemetry/exporter-trace-otlp-http";
 
 const provider = new BasicTracerProvider({
   resource: new Resource({
-    [SemanticResourceAttributes.SERVICE_NAME]: "next-app3",
+    [SemanticResourceAttributes.SERVICE_NAME]: "next-app4",
   }),
 });
 
