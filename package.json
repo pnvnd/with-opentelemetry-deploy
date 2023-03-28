@@ -7,7 +7,7 @@
     "start:otel-verbose": "NEXT_OTEL_VERBOSE=1 next start"
   },
   "dependencies": {
-    "@vercel/otel": "github:vercel/otel",
+    "@vercel/otel": "github:vercel/otel#with-dist",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
