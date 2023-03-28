@@ -10,7 +10,7 @@ specifiers:
   typescript: 4.7.4
 
 dependencies:
-  '@vercel/otel': github.com/vercel/otel/52779660740bad80a22f8b83db98d77b1e7b52ca
+  '@vercel/otel': github.com/vercel/otel/10d9180df84303e0c1a4d2f5fb3e85a4b0d5f63f
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -472,10 +472,11 @@ packages:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: false
 
-  github.com/vercel/otel/52779660740bad80a22f8b83db98d77b1e7b52ca:
-    resolution: {tarball: https://codeload.github.com/vercel/otel/tar.gz/52779660740bad80a22f8b83db98d77b1e7b52ca}
+  github.com/vercel/otel/10d9180df84303e0c1a4d2f5fb3e85a4b0d5f63f:
+    resolution: {tarball: https://codeload.github.com/vercel/otel/tar.gz/10d9180df84303e0c1a4d2f5fb3e85a4b0d5f63f}
     name: '@vercel/otel'
     version: 0.0.3
+    engines: {node: '>=16'}
     dependencies:
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/exporter-trace-otlp-http': 0.35.1_@opentelemetry+api@1.4.1
