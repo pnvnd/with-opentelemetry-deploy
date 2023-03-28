@@ -9,7 +9,7 @@ import { OTLPTraceExporter } from "@opentelemetry/exporter-trace-otlp-grpc";
 
 const provider = new BasicTracerProvider({
   resource: new Resource({
-    [SemanticResourceAttributes.SERVICE_NAME]: "next-app",
+    [SemanticResourceAttributes.SERVICE_NAME]: "next-app2",
   }),
 });
 
