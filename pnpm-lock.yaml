@@ -10,7 +10,7 @@ specifiers:
   typescript: 4.7.4
 
 dependencies:
-  '@vercel/otel': 0.0.2
+  '@vercel/otel': github.com/vercel/otel/ac3adc76e413c27818470b756dcddc1b04fb3126
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -305,16 +305,6 @@ packages:
     resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
     dev: true
 
-  /@vercel/otel/0.0.2:
-    resolution: {integrity: sha512-6fRF5GpmnUE+54UsKx1aq6y+SgZB7dp8Kjis5rP7Na/9DiHAFSTsNBcNpv9FC2gzL36M5Bx4u8Aytg6w2y3RXg==}
-    dependencies:
-      '@opentelemetry/api': 1.4.1
-      '@opentelemetry/exporter-trace-otlp-http': 0.35.1_@opentelemetry+api@1.4.1
-      '@opentelemetry/resources': 1.9.1_@opentelemetry+api@1.4.1
-      '@opentelemetry/sdk-trace-node': 1.9.1_@opentelemetry+api@1.4.1
-      '@opentelemetry/semantic-conventions': 1.9.1
-    dev: false
-
   /caniuse-lite/1.0.30001472:
     resolution: {integrity: sha512-xWC/0+hHHQgj3/vrKYY0AAzeIUgr7L9wlELIcAvZdDUHlhL/kNxMdnQLOSOQfP8R51ZzPhmHdyMkI0MMpmxCfg==}
     dev: false
@@ -480,4 +470,16 @@ packages:
 
   /yallist/4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
+    dev: false
+
+  github.com/vercel/otel/ac3adc76e413c27818470b756dcddc1b04fb3126:
+    resolution: {tarball: https://codeload.github.com/vercel/otel/tar.gz/ac3adc76e413c27818470b756dcddc1b04fb3126}
+    name: '@vercel/otel'
+    version: 0.0.3
+    dependencies:
+      '@opentelemetry/api': 1.4.1
+      '@opentelemetry/exporter-trace-otlp-http': 0.35.1_@opentelemetry+api@1.4.1
+      '@opentelemetry/resources': 1.9.1_@opentelemetry+api@1.4.1
+      '@opentelemetry/sdk-trace-node': 1.9.1_@opentelemetry+api@1.4.1
+      '@opentelemetry/semantic-conventions': 1.9.1
     dev: false
