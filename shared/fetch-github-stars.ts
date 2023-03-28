@@ -1,5 +1,4 @@
 import { trace } from "@opentelemetry/api";
-import "../instrumentation-custom";
 
 const tracer = trace.getTracer("next-app-tracer");
 
