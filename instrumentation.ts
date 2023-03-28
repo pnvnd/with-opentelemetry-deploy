@@ -1,5 +1,6 @@
-import { registerOTel } from "@vercel/otel";
-
 export function register() {
-  registerOTel("with-opentelemetry-deploy");
+  if (process.env.NEXT_RUNTIME === "node") {
+    const { registerOTel } = require("@vercel/otel/dist/index.node");
+    registerOTel("with-opentelemetry-deploy");
+  }
 }
