@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@opentelemetry/api': 1.4.1
   '@types/node': 18.7.11
   '@types/react': 18.0.17
   '@vercel/otel': github:vercel/otel#with-dist
@@ -10,8 +11,9 @@ specifiers:
   typescript: 4.7.4
 
 dependencies:
+  '@opentelemetry/api': 1.4.1
   '@vercel/otel': github.com/vercel/otel/801cf82043a2e67735cc3734dbdd906ed2b660cb
-  next: 13.2.4_biqbaboplfbrettd7655fr4n2y
+  next: 13.2.4_756ubwvsgazzkcxtigvs4yqbci
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -345,7 +347,7 @@ packages:
     hasBin: true
     dev: false
 
-  /next/13.2.4_biqbaboplfbrettd7655fr4n2y:
+  /next/13.2.4_756ubwvsgazzkcxtigvs4yqbci:
     resolution: {integrity: sha512-g1I30317cThkEpvzfXujf0O4wtaQHtDCLhlivwlTJ885Ld+eOgcz7r3TGQzeU+cSRoNHtD8tsJgzxVdYojFssw==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -367,6 +369,7 @@ packages:
         optional: true
     dependencies:
       '@next/env': 13.2.4
+      '@opentelemetry/api': 1.4.1
       '@swc/helpers': 0.4.14
       caniuse-lite: 1.0.30001472
       postcss: 8.4.14
