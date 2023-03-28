@@ -1,7 +1,7 @@
 export function register() {
-  if (process.env.NEXT_RUNTIME === "node") {
-    const { registerOTel } = require("@vercel/otel");
-    registerOTel("with-opentelemetry-deploy");
+  console.log("runtime:", process.env.NEXT_RUNTIME);
+  if (process.env.NEXT_RUNTIME === "nodejs") {
+    require("./instrumentation-node");
     console.log("Registered OpenTelemetry for Node.js");
   }
 }
