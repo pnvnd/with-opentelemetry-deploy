@@ -1,4 +1,7 @@
-import { tracer } from "../instrumentation-custom";
+import { trace } from "@opentelemetry/api";
+import "../instrumentation-custom";
+
+const tracer = trace.getTracer("next-app-tracer");
 
 export async function fetchGithubStars() {
   return await tracer.startActiveSpan("fetchGithubStars", async (span) => {

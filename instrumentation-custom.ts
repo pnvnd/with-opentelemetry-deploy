@@ -1,4 +1,3 @@
-import { trace, context } from "@opentelemetry/api";
 import { Resource } from "@opentelemetry/resources";
 import { SemanticResourceAttributes } from "@opentelemetry/semantic-conventions";
 import {
@@ -18,6 +17,3 @@ provider.addSpanProcessor(new SimpleSpanProcessor(new OTLPTraceExporter()));
 provider.addSpanProcessor(new SimpleSpanProcessor(new ConsoleSpanExporter()));
 
 provider.register();
-
-export const tracer = trace.getTracer("next-app-tracer");
-export { context };
