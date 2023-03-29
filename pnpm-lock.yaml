@@ -10,7 +10,7 @@ specifiers:
   typescript: 4.7.4
 
 dependencies:
-  '@vercel/otel': github.com/vercel/otel/3a3581e0b1b17f1fc95909149f1aa0fd40be5569
+  '@vercel/otel': github.com/vercel/otel/5d107ba6f979c51da3bb137703be3116a7e0f742
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -686,8 +686,8 @@ packages:
       yargs-parser: 20.2.9
     dev: false
 
-  github.com/vercel/otel/3a3581e0b1b17f1fc95909149f1aa0fd40be5569:
-    resolution: {tarball: https://codeload.github.com/vercel/otel/tar.gz/3a3581e0b1b17f1fc95909149f1aa0fd40be5569}
+  github.com/vercel/otel/5d107ba6f979c51da3bb137703be3116a7e0f742:
+    resolution: {tarball: https://codeload.github.com/vercel/otel/tar.gz/5d107ba6f979c51da3bb137703be3116a7e0f742}
     name: '@vercel/otel'
     version: 0.0.3
     engines: {node: '>=16'}
