@@ -24,7 +24,7 @@ dependencies:
   '@opentelemetry/sdk-trace-base': 1.10.1_@opentelemetry+api@1.4.1
   '@opentelemetry/semantic-conventions': 1.10.1
   '@vercel/og': 0.5.0
-  '@vercel/otel': github.com/vercel/otel/33869fc19829af3e8aa745e34fa57bb1a57af18a
+  '@vercel/otel': github.com/vercel/otel/a95cbb7830df27843699769783fedc1346ddab06
   next: 13.2.5-canary.20_756ubwvsgazzkcxtigvs4yqbci
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1051,8 +1051,8 @@ packages:
     resolution: {integrity: sha512-N+d4UJSJbt/R3wqY7Coqs5pcV0aUj2j9IaQ3rNj9bVCLld8tTGKRa2USARjnvZJWVx1NDmQev8EknoczaOQDOA==}
     dev: false
 
-  github.com/vercel/otel/33869fc19829af3e8aa745e34fa57bb1a57af18a:
-    resolution: {tarball: https://codeload.github.com/vercel/otel/tar.gz/33869fc19829af3e8aa745e34fa57bb1a57af18a}
+  github.com/vercel/otel/a95cbb7830df27843699769783fedc1346ddab06:
+    resolution: {tarball: https://codeload.github.com/vercel/otel/tar.gz/a95cbb7830df27843699769783fedc1346ddab06}
     name: '@vercel/otel'
     version: 0.0.3
     engines: {node: '>=16'}
