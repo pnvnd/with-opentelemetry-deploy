@@ -1,4 +1,4 @@
-import { trace } from "@vercel/otel";
+import { trace } from "@opentelemetry/api";
 
 const tracer = trace.getTracer("next-app-tracer");
 
