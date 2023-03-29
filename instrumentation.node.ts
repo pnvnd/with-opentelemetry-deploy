@@ -6,7 +6,7 @@ import { OTLPTraceExporter } from "@opentelemetry/exporter-trace-otlp-http";
 
 const sdk = new NodeSDK({
   resource: new Resource({
-    [SemanticResourceAttributes.SERVICE_NAME]: "next-app-http",
+    [SemanticResourceAttributes.SERVICE_NAME]: "next-app-http-main",
   }),
   traceExporter: new OTLPTraceExporter(),
 });
